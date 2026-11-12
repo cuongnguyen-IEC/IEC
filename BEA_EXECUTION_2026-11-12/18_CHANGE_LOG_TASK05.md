@@ -87,3 +87,45 @@ Nguyên văn đầy đủ của từng ô sau thay đổi: đọc lại THUC_THI
 |---|---|---|---|
 | CL-12 | Drive: PRJ-GLOBAL/NHAT_KY | Tạo mới NHAT_KY_2026-11-12_TASK05_execution-mvp (Google Doc `1B_kaKlR0N2FaQ-cZdBRkNLQkzc2W8OrlBkwgL5UUZiM`, 12/11/2026 21:57 giờ VN); đã đọc lại, nội dung đầy đủ | Nhật ký theo khuôn BEA; không sửa NHAT_KY cũ |
 | CL-13 | Repo GitHub, nhánh `ccr-594510c6-l92km9` | Thêm file 15–19 | Không sửa file 11–14 |
+
+## Đợt 2: thực hiện mục 2 và mục 3 trong phản hồi của anh (12/11/2026, khoảng 22:47–22:49 giờ VN)
+
+- Căn cứ:
+  - Mục 2 của anh: "đổi mốc quyết định để cập nhật theo tiến độ thực của các task" (duyệt nháp QĐ-008).
+  - Mục 3 của anh: "price list để tính toán chứ không cho phép khấu trừ trên giá gói. nếu có thì cho phép thương lượng trade off cho những service giá trị tương đương cho chương trình."
+- Điểm khôi phục:
+  - BEA_DKB_INDEX: revision 46 (trước đợt 2). Bản sau: modifiedTime 15:48:55Z (22:48 giờ VN).
+  - Khôi phục bằng Lịch sử phiên bản.
+
+| Mã | Ô / vùng | Trước | Sau | Lý do / căn cứ |
+|---|---|---|---|---|
+| CL-14 | Drive, thư mục QĐ của PRJ-IEC-DIALOGUES | — | Tạo Doc QD-IEC-DIALOGUES-008_moc-dong-hanh-ky-1-chung_v1 (`13HOvGCcnFQp6uiT9jkG8jT15CpNPApxhGkBaw5a-DOk`) | Mục 2 của anh |
+| CL-15 | Drive, thư mục QĐ của PRJ-IEC-DIALOGUES | — | Tạo Doc QD-IEC-DIALOGUES-001_gia-va-goi-dong-hanh-ky-1_v2 (`1K_SPPktoBxWeolHbsEssgfd9VYic43fQz7_3E-i8Bsc`); Doc v1 giữ nguyên | Mục 3 của anh |
+| CL-16 | HO_SO!A104:P110 | trống | 7 dòng ghi thêm: QĐ-008 Đề xuất, Đã thống nhất (v1); QĐ-002 Đã thay đổi (v1); QĐ-006 Đã thay đổi (v1); QĐ-001 Đề xuất (v2), Đã thay đổi (v1), Đã thống nhất (v2). Không sửa dòng cũ | Mục 2, 3; TASK 05 mục 2 (cơ chế ghi thêm dòng) |
+| CL-17 | THUC_THI!C4 | Thôi giữ ghế chuyên môn cho ACB nếu ACB không báo ý định trước 13/11 | … trước 16/11 (QĐ-008; trước đó 13/11) | QĐ-008 |
+| CL-18 | THUC_THI!C7 | Trình anh quyết từng trường hợp ngân hàng nhận bộ sau 13/11 | … sau 16/11 (QĐ-008; trước đó 13/11) | QĐ-008 |
+| CL-19 | THUC_THI!D2:D7, D24, D25, D27 | D2–D4 `QD-IEC-DIALOGUES-002`; D5–D7 `QD-IEC-DIALOGUES-006`; D24 `QD-IEC-DIALOGUES-008 (nháp, chưa duyệt)`; D25 `QD-IEC-DIALOGUES-001; điều khoản anh chốt chat 12/11 chưa có QĐ`; D27 `QD-IEC-DIALOGUES-001; chốt chat 12/11 chưa có QĐ` | D2–D4 `…-002; mốc: -008`; D5–D7 `…-006; mốc: -008`; D24 `QD-IEC-DIALOGUES-008 (Đã thống nhất 12/11/2026)`; D25 `QD-IEC-DIALOGUES-001 v2 (12/11)`; D27 `QD-IEC-DIALOGUES-001 v2, -008` | QĐ-008, QĐ-001 v2 |
+| CL-20 | THUC_THI!F2–F6, F9, F24, F27; định dạng F24:F31 | F2, F4, F5 13/11/2026; F3, F6 20/11/2026; F9 25/11/2026; F24, F27 PENDING DEADLINE CONFIRMATION; F24:F31 chưa có định dạng ngày | F2, F4, F5 16/11/2026; F3, F6 25/11/2026; F9 27/11/2026 (Đề xuất v2.1); F24 `Không áp dụng (đã quyết 12/11/2026)`; F27 25/11/2026; F24:F31 định dạng dd/mm/yyyy | QĐ-008; định dạng để ngày hiển thị đúng |
+| CL-21 | THUC_THI!E24, E25, G24, G25, I24, I25 | E: PENDING OWNER CONFIRMATION; G, I: trống | E24, E25 `Anh Cường` (anh là người đã quyết); G24 `Completed`; G25 `In Progress`; I24, I25 dẫn chat 12/11 và Doc QĐ | Bằng chứng: lời anh 12/11 và Doc QĐ |
+| CL-22 | THUC_THI!H2–H7, H9, H24, H25, H27 | Nội dung sau đợt 1 | Thêm đoạn "12/11 (QĐ-008): …" hoặc "12/11 (QĐ-001 v2): …" vào đầu ô; nội dung cũ giữ nguyên văn | Ghi tiến độ |
+
+Kiểm tra sau đợt 2 (đọc lại THUC_THI):
+
+| Chỉ tiêu | Kết quả |
+|---|---|
+| Tổng | 30 |
+| Chưa xác nhận trạng thái | 25 |
+| In Progress | 4 |
+| Completed | 1 |
+| Sắp đến hạn | 4 |
+| Quá hạn | 0 |
+| Thiếu Owner | 24 |
+| Hạn chưa phải ngày | 20 |
+| Completed chưa có bằng chứng | 0 |
+
+Tất cả khớp dự kiến.
+
+| Mã | Đối tượng | Thay đổi |
+|---|---|---|
+| CL-23 | Drive: PRJ-GLOBAL/NHAT_KY | Tạo NHAT_KY_2026-11-12_TASK05_phan-hoi-anh |
+| CL-24 | Repo | Thêm file 20; bổ sung file 18 (mục này) |
